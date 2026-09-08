@@ -44,7 +44,7 @@ O principal problema era a **falta de legibilidade somada à ausência de separa
 
 Os nomes das variáveis (`n`, `a`, `b`, `c`) não comunicavam nada sobre o que armazenavam, o que obrigava quem lia o código a reconstruir mentalmente a intenção de cada linha. Além disso, todo o programa estava concentrado dentro do método `main`: entrada de dados, cálculo da média, decisão de aprovação e exibição dos resultados ocupavam o mesmo bloco.
 
-Havia ainda um número mágico (`6`) escrito diretamente na condição, sem indicar que representava a média mínima para aprovação. Como visto na aula, código que não segue boas práticas transforma pequenas modificações em tarefas difíceis e arriscadas — e é exatamente nesse ponto que se concentra a maior parte do custo de manutenção de um software.
+Havia ainda um número mágico (`6`) escrito diretamente na condição, sem indicar que representava a média mínima para aprovação. Como visto na aula, código que não segue boas práticas transforma pequenas modificações em tarefas difíceis e arriscadas, e é exatamente nesse ponto que se concentra a maior parte do custo de manutenção de um software.
 
 ### 2. Quais melhorias você realizou?
 
@@ -68,7 +68,7 @@ O programa foi dividido em módulos com responsabilidade única:
 
 **c) Código auto comentado**
 
-Os nomes de classes e métodos explicam a intenção sem necessidade de comentário linha a linha. Os comentários que permaneceram são de documentação (Javadoc) e explicam decisões de projeto, e não o óbvio — seguindo o princípio de que comentários devem **complementar** o código, nunca substituir nomes claros.
+Os nomes de classes e métodos explicam a intenção sem necessidade de comentário linha a linha. Os comentários que permaneceram são de documentação (Javadoc) e explicam decisões de projeto, e não o óbvio, seguindo o princípio de que comentários devem **complementar** o código, nunca substituir nomes claros.
 
 **d) Padronização**
 
